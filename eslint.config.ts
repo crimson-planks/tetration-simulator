@@ -33,6 +33,7 @@ export default defineConfigWithVueTs(
   {
     rules: {
       'vue/require-v-for-key': 'warn',
+      '@typescript-eslint/no-explicit-any': 'warn',
     },
   },
 );
